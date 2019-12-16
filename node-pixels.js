@@ -115,6 +115,7 @@ function doParse(mimeType, data, cb) {
     break
 
     case 'image/gif':
+    case '.GIF':		  
       handleGIF(data, cb)
     break
 
